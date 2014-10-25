@@ -1,0 +1,25 @@
+'.source.js':
+  'ngfactory':
+    'prefix': 'ngfactory'
+    'body': """
+    (function () {
+      'use strict';
+
+      angular
+        .module('${1:module}')
+        .factory('${2:factory}', ${2:factory});
+
+      /* @ngInject */
+      function ${2:factory}(${3:dependencies}) {
+        var service = {
+          Completed: ${4:function}
+        };
+        return service;
+
+        ////////////////
+
+        function ${4:function}() {}
+      }
+    })();
+
+    """

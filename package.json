@@ -1,0 +1,14 @@
+{
+  "name": "angular--best-practice--snippets",
+  "main": "./lib/angular--best-practice--snippets",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["angular--best-practice--snippets:toggle"],
+  "repository": "https://github.com/atom/angular--best-practice--snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

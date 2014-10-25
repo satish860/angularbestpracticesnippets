@@ -1,0 +1,23 @@
+'.source.js':
+  'ngController':
+    'prefix': 'ngcontroller'
+    'body': """
+     (function () {
+       "use strict";
+
+       angular
+         .module('${1:module}')
+         .controller('${2:Ctrl}', ${2:Ctrl});
+
+       function ${2:Ctrl}(${3:dependencies}) {
+         /*jshint validthis: true */
+         var vm = this;
+         vm.title = '${2:Ctrl}';
+
+         activate();
+
+         function activate() {}
+       }
+
+     }());
+    """
