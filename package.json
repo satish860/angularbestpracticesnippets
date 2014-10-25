@@ -1,14 +1,13 @@
 {
   "name": "angular--best-practice--snippets",
   "main": "./lib/angular--best-practice--snippets",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "1.0.0",
+  "description": "file templates or snippets to help follow consistent styles and patterns. Here are templates and/or snippets for Atom .",
   "activationEvents": ["angular--best-practice--snippets:toggle"],
-  "repository": "https://github.com/atom/angular--best-practice--snippets",
+  "repository": "https://github.com/satish860/angularbestpracticesnippets/",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
